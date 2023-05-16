@@ -28,10 +28,11 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 100, 72, 43)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Installation Home Page'),
+      home: const MyHomePage(title: 'Home Page'),
     );
   }
 }
@@ -71,8 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
-git branch -M main
-git push -u origin main    // by the _incrementCounter method above.
+    // by the _incrementCounter method above.
     //
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
